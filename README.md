@@ -1,4 +1,4 @@
-# Anonymous Submission - Federated Ensemble with OSR
+# Anonymous Submission - Federated Ensemble with Enhanced OSR
 
 This repository contains the codebase for our NeurIPS 2025 anonymous submission on federated learning with ensemble-based open-set recognition. It implements a variety of federated learning algorithms and provides a unified training and evaluation workflow.
 
