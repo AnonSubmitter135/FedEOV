@@ -2,24 +2,24 @@
 setlocal
 
 REM Define lists for each parameter
-set init_seed_list=2 1
-set dataset_list=svhn mnist fashion-mnist colored-mnist
+set init_seed_list=1
+set dataset_list=cifar10
 set batchsize_list=128
 set cd_lr_list=0.001
 set partition_list=XtremeHetero
-set epochs_classifier_list=10
+set epochs_classifier_list=100
 set n_parties_list=10
-set algorithm_list=fedprunedeov
+set algorithm_list=fedeov fedov
 set rounds_list=100
 set beta_list=0.1
-set pruneratio_list=0.8
+set pruneratio_list=0
 set model_list=SimpleCNN2
 set device=cuda:0
 
 REM Define flags as True or False
 set save_result_dict=True
 set save_classifier=True
-set ablation=False
+set ablation=True
 
 REM Add flags dynamically
 set flags=
